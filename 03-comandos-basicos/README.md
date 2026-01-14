@@ -31,10 +31,6 @@
 - **shutdown -h now**: Desliga imediatamente (aguarde mensagem "system halted").  
 - **reboot**: Reinicia o sistema instantaneamente (uso recomendado apenas em emergências).  
 
-## COMANDOS DE INTERFACE GRÁFICA
-
-- **startx**: Inicia o X-Windows (interface gráfica do Linux).  
-- **kde**: Inicia o KDE (K Desktop Environment).  
 
 ## COMANDOS DE DIRETÓRIOS E ARQUIVOS
 
