@@ -1,5 +1,5 @@
 ###01 - Introdução: Conceitos, Distribuições e Histórico do Linux
-Introdução ao Linux
+Introdução ao Linux 
 
 #O Linux é um dos sistemas operacionais mais utilizados e respeitados no mundo da tecnologia, sendo conhecido por sua estabilidade, flexibilidade e natureza de código aberto. Ele é amplamente adotado em servidores, desktops e, especialmente, em todos os principais provedores de serviços de nuvem. Este material oferece uma visão geral do Linux, abordando seus conceitos fundamentais, histórico, vantagens, componentes essenciais e aspectos necessários para utilizá-lo de forma eficiente.
 
