@@ -7,7 +7,7 @@
 
 ## ABRINDO O PROMPT
 
-- **Abrir o terminal no Linux:** `<Alt> + <F2>`  
+- **Abrir o terminal no Linux:** `<Ctrl>+ <Alt> + <t>`  
 - **Linha de comando "livre"**: Digite `:` e pressione Enter. Para sair, digite `q` e Enter.
 
 ## COMANDOS DE NAVEGAÇÃO E ARQUIVOS
