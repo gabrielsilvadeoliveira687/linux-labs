@@ -3,7 +3,7 @@
 
 ## INTRODUÇÃO
 
-# Esta seção explica como funciona o gerenciamento de pacotes em linux, principalmente nas distribuições derivadas do unix. compreender esse processo é fundamental para instalar, atualizar, remover softwares e manter o sistema estável e seguro. Cada distribuição pode ter seu próprio gerenciador de pacotes, como `apt`, `yum` ou `dnf`, e é importante sempre saber qual distribuição você está utilizando, por exemplo: `ubuntu`, `debian`, `linux mint`, `arch`, `kali`, `centos` etc.**
+ Esta seção explica como funciona o gerenciamento de pacotes em linux, principalmente nas distribuições derivadas do unix. compreender esse processo é fundamental para instalar, atualizar, remover softwares e manter o sistema estável e seguro. Cada distribuição pode ter seu próprio gerenciador de pacotes, como `apt`, `yum` ou `dnf`, e é importante sempre saber qual distribuição você está utilizando, por exemplo: `ubuntu`, `debian`, `linux mint`, `arch`, `kali`, `centos` etc.**
 
 ---
 
