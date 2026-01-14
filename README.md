@@ -1,7 +1,7 @@
 # Linux Labs
 
 ## Objetivo
-Repositório de estudo e prática em Linux, organizado por tópicos.
+Este repositório tem como objetivo organizar guias e passos a passo para aprendizado em Linux, servindo como material de estudo e documentação do meu aprendizado. Aqui você encontrará exemplos, tutoriais e anotações que facilitam o estudo contínuo e a referência futura. organizado por tópicos.
 
 ## Estrutura
 - 01-introducao: Conceitos, distribuições e histórico
@@ -16,5 +16,5 @@ Repositório de estudo e prática em Linux, organizado por tópicos.
 ## Como usar
 1. Navegue até a pasta desejada
 2. Leia o README.md dentro da pasta
-3. Execute os exemplos no terminal
+
 
