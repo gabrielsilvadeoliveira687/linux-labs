@@ -1,7 +1,7 @@
 # Linux Labs
 
 ## Objetivo
-Este repositório tem como objetivo organizar guias e passos a passo para aprendizado em Linux, servindo como material de estudo e documentação do meu aprendizado. Aqui você encontrará exemplos, tutoriais e anotações que facilitam o estudo contínuo e a referência futura. organizado por tópicos.
+Este repositório tem como objetivo organizar guias e passos a passo para aprendizado em Linux, servindo como material de estudo e documentação do meu aprendizado. Aqui você encontrará exemplos, tutoriais e anotações que facilitam o estudo contínuo e a referência futura. A documentação segue organizado por tópicos.
 
 ## Estrutura
 - 01-introducao: Conceitos, distribuições e histórico
