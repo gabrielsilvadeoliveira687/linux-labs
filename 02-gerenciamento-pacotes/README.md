@@ -46,11 +46,11 @@ Antes de usar qualquer gerenciador de pacotes, é recomendado confirmar a distri
 #bash
 - **cat /etc/os-release**
 
-## boas práticas
+## Boas práticas
 
-# Sempre use o gerenciador de pacotes padrão da distribuição para evitar problemas de dependências.
-# Mantenha o sistema atualizado para garantir segurança e estabilidade. 
-# Ao procurar pacotes, utilize os comandos de busca (apt search ou dnf search) para confirmar o nome exato.
+ Sempre use o gerenciador de pacotes padrão da distribuição para evitar problemas de dependências.
+ Mantenha o sistema atualizado para garantir segurança e estabilidade. 
+ Ao procurar pacotes, utilize os comandos de busca (apt search ou dnf search) para confirmar o nome exato.
 
 evite instalações manuais fora do gerenciador sem necessidade.
 
