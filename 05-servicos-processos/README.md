@@ -1,6 +1,3 @@
-
-
-
 # 05 - SERVIÇOS E PROCESSOS NO LINUX
 
 ## INTRODUÇÃO
@@ -19,13 +16,13 @@ Um **processo** é uma instância de um programa em execução no sistema. Cada 
 
 ## GERENCIAMENTO DE PROCESSOS
 
-- **kill [PID]: Encerra um processo pelo PID.
-- **kill -9 [PID]: Força o encerramento do processo (uso com cautela).
-- **pkill [nome]: Encerra processos pelo nome.
-- **&: Executa um comando em background.
-- **jobs: Lista processos em background.
-- **fg [%job]: Traz processo em background para foreground.
-- **bg [%job]: Continua um processo em background.
+- **kill [PID]**: Encerra um processo pelo PID.
+- **kill -9 [PID]**: Força o encerramento do processo (uso com cautela).
+- **pkill [nome]**: Encerra processos pelo nome.
+- **&**: Executa um comando em background.
+- **jobs**: Lista processos em background.
+- **fg [%job]**: Traz processo em background para foreground.
+- **bg [%job]**: Continua um processo em background.
 
 ## SERVIÇOS
 
@@ -36,42 +33,42 @@ Um **processo** é uma instância de um programa em execução no sistema. Cada 
 
 
  SYSTEMD (SISTEMAS MODERNOS)
-- **systemctl status [serviço]: Verifica o status do serviço.
-- **systemctl start [serviço]: Inicia o serviço.
-- **systemctl stop [serviço]: Para o serviço.
-- **systemctl restart [serviço]: Reinicia o serviço.
-- **systemctl enable [serviço]: Habilita o serviço na inicialização.
-- **systemctl disable [serviço]: Remove o serviço da inicialização.
+- **systemctl status [serviço]**: Verifica o status do serviço.
+- **systemctl start [serviço]**: Inicia o serviço.
+- **systemctl stop [serviço]**: Para o serviço.
+- **systemctl restart [serviço]**: Reinicia o serviço.
+- **systemctl enable [serviço]**: Habilita o serviço na inicialização.
+- **systemctl disable [serviço]**: Remove o serviço da inicialização.
 
 SERVIÇOS EM SISTEMAS LEGADOS (INIT.D)
 
 Em sistemas mais antigos:
 
-- **service [serviço] status
-- **service [serviço] start
-- **service [serviço] stop
-- **service [serviço] restart
+- **service [serviço] status**
+- **service [serviço] start**
+- **service [serviço] stop**
+- **service [serviço] restart**
 
 LOGS DE SISTEMA
 
 Logs são fundamentais para identificar erros e comportamentos inesperados.
 
-- **journalctl: Visualiza logs do systemd.
-- **journalctl -u [serviço]: Logs de um serviço específico.
-- **/var/log/: Diretório padrão de logs do sistema.
-tail -f [arquivo.log]: Acompanha logs em tempo real.
+- **journalctl**: Visualiza logs do systemd.
+- **journalctl -u [serviço]**: Logs de um serviço específico.
+- **/var/log/**: Diretório padrão de logs do sistema.
+- **tail -f [arquivo.log]**: Acompanha logs em tempo real, caso queira um log mais extenso utilze 100f 1000f .
 
 Exemplo:
 
-- **tail -f /var/log/syslog
+- **tail -f /var/log/syslog**
 
-BOAS PRÁTICAS
+### BOAS PRÁTICAS
 
-Sempre identifique o processo antes de finalizá-lo.
+# Sempre identifique o processo antes de finalizá-lo.
 Evite o uso excessivo do kill -9.
 Utilize logs para troubleshooting antes de reiniciar serviços.
 Monitore consumo de CPU e memória regularmente.
 
 Exemplo:
-```bash
-ps aux | grep nginx
+bash
+- **ps aux | grep nginx**
