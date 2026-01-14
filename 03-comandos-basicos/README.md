@@ -73,17 +73,12 @@
 
 - **type [arquivo]**: Mostra informações sobre um arquivo.  
 - **file [arquivo]**: Descreve o tipo de um arquivo.  
-- **find / -name [arquivo]**: Procura arquivo no sistema.  
-- **sndconfig**: Configura a placa de som.  
+- **find / -name [arquivo]**: Procura arquivo no sistema.   
 - **linuxconf**: Abre ferramenta de configuração do Linux.  
 - **alias**: Cria atalhos para comandos.  
 - **&**: Executa comando em background.  
 - **mtools**: Permite usar ferramentas compatíveis com DOS (comando `M` na frente).  
 - **minicom (m)**: Configura modems via terminal.  
-- **telnet**: Conecta via Telnet.  
 
 ---
 
-Se você quiser, posso agora **fazer o mesmo para a próxima seção “04-permissoes-usuarios”**, já pronta e no mesmo estilo Markdown bonito, para você ir montando o README completo.  
-
-Quer que eu faça?
