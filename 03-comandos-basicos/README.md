@@ -73,7 +73,7 @@
 
 - **type [arquivo]**: Mostra informações sobre um arquivo.  
 - **file [arquivo]**: Descreve o tipo de um arquivo.  
-- **find / -name  " [arquivo ou nome de arquivos] " -exec ls -lh {} \**: Procura arquivo no sistema.   
+- **find / -name** " [arquivo ou nome de arquivos] " -exec ls -lh {} \ : Procura arquivo no diretorio alem de listar.   
 - **linuxconf**: Abre ferramenta de configuração do Linux.  
 - **alias**: Cria atalhos para comandos.  
 - **&**: Executa comando em background.  
