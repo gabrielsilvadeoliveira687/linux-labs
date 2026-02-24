@@ -21,7 +21,7 @@
 - **df**: Mostra partições usadas ou livres no HD.  
 - **| more**: Pagina a saída de um comando linha a linha (ex.: `cat arquivo | more`).  
 - **| lpr**: Envia o arquivo para impressão.  
-- **gedit [arquivo]**: Abre o arquivo no editor Gedit.  
+- **vim [arquivo]**: Abre o arquivo no editor Gedit.  
 - **konsole**: Abre outro terminal.  
 
 ## COMANDOS DE DESLIGAMENTO E REINÍCIO
@@ -73,7 +73,7 @@
 
 - **type [arquivo]**: Mostra informações sobre um arquivo.  
 - **file [arquivo]**: Descreve o tipo de um arquivo.  
-- **find / -name [arquivo]**: Procura arquivo no sistema.   
+- **find / -name  " [arquivo ou nome de arquivos] " -exec ls -lh {} \**: Procura arquivo no sistema.   
 - **linuxconf**: Abre ferramenta de configuração do Linux.  
 - **alias**: Cria atalhos para comandos.  
 - **&**: Executa comando em background.  
